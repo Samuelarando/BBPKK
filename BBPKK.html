@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBPKK Bandung Barat</title>
+
+    <!-- Aos start -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <!-- Aos end -->
+    <!-- font style start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <!-- font style end -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <link rel="stylesheet" href="../CSS/fitur.css">
+</head>
+
+<body>
+    <canvas class ="myCanvas"></canvas>
+
+<div class="container">
+<div class="header">
+    <img class="gambar1" src="../picture/logo-header.png" alt="BBPKK" >
+    <ul class="list">
+        <li><a href="home">Home</a></li>
+        <li><a href="TentangBBPKK">Tentang BBPKK</a></li>
+        <li><a href="Berita">Berita</a></li>
+        <li><a href="StrukturOrganisasi">Struktur Organisasi</a></li>
+    </ul>
+    <div class="login">
+        <h2><a href="#">Login</a></h2>
+    </div>
+</div>
+   
+<!-- bagian isi  start-->
+<div class="section">
+    <div class="tex1">    
+        <H1 class="hover-text1" data-voice="Selamat Datang di Balai Besar Perluasan Kesempatan Kerja Bandung Barat">Selamat Datang di Balai Besar Perluasan Kesempatan Kerja Bandung Barat</H1>
+        <p class="sectionText" data-voice="Jl. Raya Lembang No. 222, lembang, kab. bandung Barat, Jawa Barat Indonesia">Jl. Raya Lembang No. 222, lembang, kab. bandung Barat, Jawa Barat Indonesia,</p>
+    </div>
+    <object data="../picture/undraw.svg" type="" width="450px" ></object>
+</div>
+</div>
+
+
+<div class="container2">
+    <div class="tenagakerja" data-aos="fade-right">
+        <h2><span><img src="../picture/icon1.svg" alt="" width="30px"></span>Tenaga kerja lanjutan 2021</h2>
+        <p> Individu Mendampingi Kelompok Usaha</p>
+    </div>
+
+    <div class="cekLayanan" data-aos="fade-up">
+        <h1 class="layananText" data-voice="cek layanan kami">Cek <span>layanan</span> kami</h1>
+        <img src="../picture/gambar2.svg" alt="" >
+    </div>
+
+    <div class="bussines" data-aos="fade-left">
+        <h2><span><img src="../picture/icon2.svg" alt="" width="30px"></span>Bussiness matching</h2>
+        <p>Modal Usaha Disalurkan via TKM Lanjutan</p>
+    </div>
+</div>
+
+
+<div class="container3" data-aos="zoom-in-up">
+    <div class="jumlahpeserta">
+        <h1>2,947</h1>
+        <p>Jumlah Peserta</p>
+    </div>
+
+    <div class="jumlahprovinsi">
+        <h1>28</h1>
+        <p>Jumlah Provinsi</p>
+    </div> 
+
+    <div class="jumlahkab">
+        <h1>184</h1>
+        <p>Jumlah kab/kota</p>
+    </div>
+
+    <div class="jumlahbisnis">
+        <h1>25</h1>
+        <p>Jumlah tipe Bisnis</p>
+    </div>
+</div>
+<!-- bagian isi end  -->
+
+<!-- fitur fitur start -->
+
+
+<div class="accessibility-panel">
+    <button class="accessibility-button">
+        <i>👤</i>
+        <span>Pembaca Pria</span>
+    </button>
+    <button class="accessibility-button dileksia" onclick="toggleDyslexicMode()">
+        <i>⟲</i>
+        <span>Ramah Disleksia</span>
+    </button>
+    <button class="accessibility-button kontras" onclick="toggleContrast()">
+        <i>☀️</i>
+        <span>Kontras Terang</span>
+    </button>
+    <button class="accessibility-button saturasi" onclick="toggleSaturation()">
+        <i>👁️</i>
+        <span>Atur Saturasi</span>
+    </button>
+    <button class="accessibility-button" onclick="toggleTextSize()">
+        <i>𝐓</i>
+        <span>Perbesar Text</span>
+    </button>
+    <button class="accessibility-button" onclick="toggleLetterSpacing()">
+        <i>⇹</i>
+        <span>Jarak Huruf</span>
+    </button>
+    <button class="accessibility-button" onclick="toggleLineHeight()">
+        <i>≣</i>
+        <span>Jarak Baris</span>
+    </button>
+    <button class="accessibility-button" onclick="toggleTextAlignment()">
+        <i>☰</i>
+        <span>Perataan Teks</span>
+    </button>
+    <button class="accessibility-button" onclick="toggleCursor()">
+        <i>◑</i>
+        <span>Ubah Kursor</span>
+    </button>
+    <button class="accessibility-button" onclick="toggleStandardSettings()">
+        <i>⚙️</i>
+        <span>Pengaturan Standar</span>
+    </button>
+</div>
+
+<div class="fiturutama">
+    <img src="../picture/fitur2.svg" alt="" width="50px">
+</div>
+<!-- fitur fitur end -->
+
+
+<!-- tentang BBPKK -->
+<div id="TentangBBPKK">
+    <div class="textBBPKK"  data-aos="flip-up">
+        <h1 class="h1text" data-voice="Tentang BBPKK">Tentang BBPKK</h1>
+        <p class="ptext" data-voice="Peraturan Menteri Ketenagakerjaan Nomor 1 Tahun 2022 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis di Kementerian Ketenagakerjaan:">Peraturan Menteri Ketenagakerjaan Nomor 1 Tahun 2022 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis di Kementerian Ketenagakerjaan: </p>
+    </div>
+
+    <div class="gambar1" data-aos="flip-right">
+        <img src="../picture/bbpkk1.jpeg" alt="" width="500px">
+    </div>
+</div>
+
+<div class="container4">
+<div class="sejarah" data-aos="zoom-out-up" >
+    <h1 class="sejarahtext" data-voice="Sejarah BBPKK">Sejarah BBPKK</h1>
+    <h2 class="sejarahtext2" data-voice="Didirikan pada tanggal 3 Agustus 1950 semula bernama Djawatan Kursus Usaha Tani di bawah Kementrian Perburuhan">Didirikan pada tanggal 3 Agustus 1950 semula bernama Djawatan Kursus Usaha Tani di bawah Kementrian Perburuhan </h2>
+    <p class="sejarahtext3" data-voice="Sejak mulai berdiri sampai sekarang sudah 8 kali perubahan nama, diantaranya 7 kali perubahan status dengan tugas pokok dan fungsi tetap. Kemudian pada perubahan kedelapan terjadi perubahan yang signifikan yaitu status balai dari eselon III menjadi eselon II B dengan lingkup kerja lebih luas lagi menjadi Balai Besar Pengembangan dan Perluasan Kerja berada di bawah Ditjen Binapenta dengan uraian sebagai berikut :
+    Dengan Disiplin, Etos Kerja yang Keras Beretika, dan Pola Pikir Cerdas Suksesnya Sumber Daya Manusia yang Mandiri dan Profesional Cerdas dan Beretika dalam Berkarya Membangun Wirausaha">Sejak mulai berdiri sampai sekarang sudah 8 kali perubahan nama, diantaranya 7 kali perubahan status dengan tugas pokok dan fungsi tetap. Kemudian pada perubahan kedelapan terjadi perubahan yang signifikan yaitu status balai dari eselon III menjadi eselon II B dengan lingkup kerja lebih luas lagi menjadi Balai Besar Pengembangan dan Perluasan Kerja berada di bawah Ditjen Binapenta dengan uraian sebagai berikut :
+    Dengan Disiplin, Etos Kerja yang Keras Beretika, dan Pola Pikir Cerdas Suksesnya Sumber Daya Manusia yang Mandiri dan Profesional Cerdas dan Beretika dalam Berkarya Membangun Wirausaha</p>
+</div>
+<div class="sejarahimg" data-aos="zoom-out-down">
+    <img src="../picture/small.svg" alt="" width="500px">
+</div>
+</div>
+<!-- tentang BBPKK  end-->
+
+<div class="struktur" data-aos="fade-up">
+    <img src="../picture/ILHAM KEMNAKER.jpg" alt="" width="100%">
+</div>
+<!-- footer -->
+
+<div class="footer">
+    <div class="grid1">
+        <img src="../picture/logo-header.png" alt="" width="300px">
+        <p class="footertext1" data-voice="Balai Besar Pengembangan dan Perluasan Kerja (BBPPK) Lembang merupakan Unit Pelaksana Teknis Pusat (UPTP) Direktorat Jendral Pembinaan Penempatan Tenaga Kerja (Binapenta), Kementerian Ketenagakerjaan Republik Indonesia">Balai Besar Pengembangan dan Perluasan Kerja (BBPPK) Lembang merupakan Unit Pelaksana Teknis Pusat (UPTP) Direktorat Jendral Pembinaan Penempatan Tenaga Kerja (Binapenta), Kementerian Ketenagakerjaan Republik Indonesia.</p>
+    </div>
+
+    <div class="grid2">
+        <h1>Layanan</h1>
+        <ul>
+            <li>Peta Sebaran TKM Lanjutan 2021</li>
+            <li> Bizhub</li>
+            <li>Tenaga Kerja Sukarela Lanjutan</li>
+            <li>Business Matching</li>
+        </ul>
+    </div>
+
+    <div class="grid3">
+        <h1>Informasi Kontak</h1>
+        <ul>
+            <li>Jl. Raya Lembang No. 222, Lembang, Kab. Bandung Barat, Jawa Barat,Indonesia</li>
+            <li><a href="https://api.whatsapp.com/send/?phone=6282220057072&text&type=phone_number&app_absent=0">+6222 2786053</a></li>
+            <li><a href="info@bbpkk.kemnaker.go.id">info@bbpkk.kemnaker.go.id</a></li>
+            <li><a href="www.bbpkk.kemnaker.go.id">www.bbpkk.kemnaker.go.id</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+<canvas class ="myCanvas"></canvas>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script src="../javascript/script.js"></script>
+</body>
+</html>

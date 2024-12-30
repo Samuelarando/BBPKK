@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+@font-face{
+    font-family: myfont1;
+    src: url(../Font/cow.otf);
+}
+
+body {
+    background: linear-gradient( 90deg, #E7E3F2, #F9F5F7, #C6C5E4, #E5F1F9);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+.hightkontras {
+    background: linear-gradient(360deg, black, rgb(73, 69, 69));
+    color: white;
+}
+/* style untuk header start */
+.container {
+    max-width: 100%;
+    background:
+    linear-gradient(1200deg, #D7CBDE, #F6F0F9, #97a4b1, #CC9E7B);
+    border-radius: 0% 10% 50% 10%;
+    box-shadow: 15px 15px 10px grey;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Roboto', sans-serif;
+    text-shadow: 3px 3px 3px rgba(85, 82, 82, 0.397);transform: translateY(0); 
+    animation: animasioverlay 0.6;
+}
+
+
+.header.active {
+    position: fixed;
+    box-shadow: 10px 10px 8px grey;
+    background-color: white;
+    transition: all 1s ease;
+    border-radius: 20%;
+    z-index: 999;
+    
+} 
+
+
+.gambar1 {
+    max-width:180px;
+    margin: 20px 20px;
+
+}
+
+.list {
+    display: flex;
+    margin-top: 20px;
+    font-size: 22px;
+    text-shadow: 1px sienna 2px;
+
+}
+.list li {
+    margin: 10px;
+    list-style: none;
+}
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover a {
+    color: wheat;
+    transform: rotate3d(4, 0, 3, 360deg);
+}
+
+.login {
+    width: 100px;
+    margin: 20px 25px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    
+}
+
+.login a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+.login:hover a {
+    width: 100px;
+    border-radius: 30%;
+    background: linear-gradient(45deg, #D7CBDE, #F6F0F9, #A3AEB8, #CC9E7B);
+    box-shadow: 10px 10px 3px grey;
+    
+
+}
+
+/* style untuk header end  */
